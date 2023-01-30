@@ -1,0 +1,54 @@
+.sity{
+    position: relative;
+   
+    background-color: aquamarine;
+    
+    
+     
+}
+
+.img-sity{
+    /* position: absolute; */
+    width: 100%;
+
+
+}
+.img-realway{
+    position:absolute;
+    bottom: 0 ;
+    left: 0;
+    height: 300px;
+    animation-name: realway-animation;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+     
+
+}
+
+@keyframes realway-animation{
+    form {left :0}
+    to {left :2000px}
+
+}
+
+.superman{
+    height: 120px;
+    position: absolute;
+    left: 0px;
+    bottom: 300px;
+    animation-name: realway-animation;
+    animation-duration: 11s;
+    animation-iteration-count: 2;
+
+     
+}
+.batman{
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    bottom: 150px;
+    animation-name: realway-animation;
+    animation-duration: 9s;
+    animation-iteration-count: 2;
+
+}
